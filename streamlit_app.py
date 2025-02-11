@@ -56,7 +56,7 @@
 #             "timestamp": "Timestamp"
 #         },
 #         hide_index=True,
-#         height=1000,
+#         height=550,
 #         use_container_width=True
 #     )
 
@@ -136,7 +136,7 @@ try:
             )
         },
         hide_index=True,
-        num_rows="dynamic",
+        # num_rows="dynamic",
         use_container_width=True
     )
 
