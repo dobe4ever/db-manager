@@ -115,7 +115,8 @@ try:
         },
         hide_index=True,
         use_container_width=True,
-        selection="single"  # Enable single row selection
+        selection_mode = "multi-row"
+        # selection="single"  # Enable single row selection
     )
 
     # Show selected message in detail
