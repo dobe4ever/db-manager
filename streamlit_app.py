@@ -115,7 +115,7 @@ try:
         },
         hide_index=True,
         use_container_width=True,
-        selection_mode = "multi-row"
+        selection_mode = "single"
         # selection="single"  # Enable single row selection
     )
 
