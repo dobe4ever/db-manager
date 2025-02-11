@@ -117,8 +117,8 @@ try:
         column_config={
             "id": st.column_config.NumberColumn(
                 "ID",
-                required=True,
-                editable=False,
+                required=True
+                #editable=False,
             ),
             "role": st.column_config.TextColumn(
                 "Role",
@@ -131,8 +131,8 @@ try:
                 required=True,
             ),
             "timestamp": st.column_config.TextColumn(
-                "Timestamp",
-                editable=False,
+                "Timestamp"
+                #editable=False,
             )
         },
         hide_index=True,
