@@ -56,7 +56,7 @@ try:
             "timestamp": "Timestamp"
         },
         hide_index=True,
-        height=1000
+        height=1000,
         use_container_width=True
     )
 
