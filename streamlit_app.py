@@ -18,11 +18,7 @@ st.title("Messages Viewer")
 @st.cache_resource
 def init_connection():
     return psycopg2.connect(
-        host=st.secrets["postgres"]["PGHOST"],
-        port=st.secrets["postgres"]["PGPORT"],
-        dbname=st.secrets["postgres"]["PGDATABASE"],
-        user=st.secrets["postgres"]["PGUSER"],
-        password=st.secrets["postgres"]["PGPASSWORD"],
+        st.secrets["postgres"]["url"],
         cursor_factory=RealDictCursor
     )
 
